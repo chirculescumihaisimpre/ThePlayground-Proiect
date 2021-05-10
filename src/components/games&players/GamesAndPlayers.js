@@ -21,7 +21,7 @@ const GamesAndPlayers = (props) => {
                     <div className=" flex justify-end items-start">
                         <GameForm/>
                     </div>
-                    <div className="w-50 flex flex-column" style={{"overflow-y" : "scroll", "maxHeight" : "70vh" }}>
+                    <div className="w-50 flex flex-column" style={{"overflowY" : "scroll", "maxHeight" : "70vh" }}>
                         <GamesList/>
                     </div>
                 </div>

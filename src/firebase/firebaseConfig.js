@@ -5,13 +5,11 @@ require('firebase/auth');
 
 const firebaseConfig = {
   apiKey: REACT_APP_APIKEY,
-  authDomain: "playeroftheyear-80c15.firebaseapp.com",
-  databaseURL: "https://playeroftheyear-80c15.firebaseio.com",
-  projectId: "playeroftheyear-80c15",
-  storageBucket: "playeroftheyear-80c15.appspot.com",
-  messagingSenderId: "711324625251",
-  appId: "1:711324625251:web:319a2d71a16a6b30c20b56"
-
+  authDomain: "boardgames-ac04b.firebaseapp.com",
+  projectId: "boardgames-ac04b",
+  storageBucket: "boardgames-ac04b.appspot.com",
+  messagingSenderId: "515115237978",
+  appId: "1:515115237978:web:4da6f68cff665c70ce8e63"
 };
 
 firebase.initializeApp(firebaseConfig);
